@@ -7,6 +7,7 @@ protoc object_detection/protos/eval.proto --python_out=.
 protoc object_detection/protos/faster_rcnn.proto --python_out=.
 protoc object_detection/protos/faster_rcnn_box_coder.proto --python_out=.
 protoc object_detection/protos/grid_anchor_generator.proto --python_out=.
+protoc object_detection/protos/flexible_grid_anchor_generator.proto  --python_out=.
 protoc object_detection/protos/graph_rewriter.proto --python_out=.
 protoc object_detection/protos/hyperparams.proto --python_out=.
 protoc object_detection/protos/image_resizer.proto --python_out=.
